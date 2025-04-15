@@ -29,3 +29,8 @@ You can explore the clustering logic and analysis inside the included notebook:
 ➡️ `BlackBox_Cluster_Analysis.ipynb`
 
 It shows how user activity is preprocessed, clustered using KMeans, and visualized using Seaborn.
+## Sample Output
+
+Below is a sample cluster analysis of user behavior using KMeans. Each color represents a cluster of similar behavior patterns based on action time and duration.
+
+![Cluster Plot](cluster_plot.png)
