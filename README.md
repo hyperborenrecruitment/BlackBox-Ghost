@@ -20,7 +20,14 @@ BlackBox:Ghost is a synthetic environment used to test internal security protoco
 
 ## Sample Output  
 ![](sample_blackbox_dashboard.png)
+## Dataset
+The file `user_activity_logs.csv` contains synthetic user behavior over a 48-hour window. Data was programmatically generated to simulate:
+- Normal activity across secure document access
+- Rare print attempts on restricted files
+- Off-hours logins from unusual IPs
+- Location drift between sessions
 
+You can use this to test clustering models like KMeans, DBSCAN, or Isolation Forest.
 ## Note  
 All data used in this project is synthetic. This project was developed in a sandboxed research environment.
 ## Notebook
