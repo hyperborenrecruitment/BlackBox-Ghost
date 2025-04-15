@@ -23,3 +23,9 @@ BlackBox:Ghost is a synthetic environment used to test internal security protoco
 
 ## Note  
 All data used in this project is synthetic. This project was developed in a sandboxed research environment.
+## Notebook
+
+You can explore the clustering logic and analysis inside the included notebook:  
+➡️ `BlackBox_Cluster_Analysis.ipynb`
+
+It shows how user activity is preprocessed, clustered using KMeans, and visualized using Seaborn.
